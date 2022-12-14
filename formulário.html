@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa Emprega Paranoá</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav-conteplado">
+        <img class="img-conteplado" src="logo-removebg-preview.png" alt="" srcset="">
+        <div class="conteudo-conteplado">
+        <a class="conteudo-conteplado-conteudo" href="">Home</a>
+        <a class="conteudo-conteplado-conteudo" href="formulário.html">Formulário</a>
+        <a class="conteudo-conteplado-conteudo" href="">Cursos</a>
+        </div>
+    </nav>
+    <div class="conteudo">
+
+        <p class="conteudo-subtitulo">O preenchimento desse formulário não garatia de aprovação da bolsa</p>
+
+        
+            <div class="form" class="bold">
+                <div class="form-item" > Nome do candidato:</div>
+                <input id="candidato" class="form-item-input" type="text" >
+            </div>
+
+            <div class="form">
+                <div class="form-item"> Nome do responsável:</div>
+                <input class="form-item-input" type="text" >
+            </div>
+
+            <div class="form">
+                <div class="form-item"> Cidade onde reside:</div>
+                <input class="form-item-input" type="text" >
+            </div>
+
+            <div class="form">
+                <div class="form-item"> Quantas pessoas moram na casa:</div>
+                <input class="form-item-input" type="number" >
+            </div>
+
+            <div class="form">
+                <div class="form-item"> Quantas pessoas trabalham :</div>
+                <input class="form-item-input" type="number" >
+            </div>
+
+            <div class="form">
+                <div class="form">
+                <label class="form-item">Usa algum serviço de streamin? </label>
+                                    <label class="btn-chek">Sim
+                                    <input type="radio" checked="checked" name="exist">
+                                    <span class="btn-chek"></span>
+                                    </label>
+                                    <label class="btn-chek">Não
+                                    <input type="radio" name="exist">
+                                    <span class="checkmark"></span>
+                </label>
+                </div>
+
+                <div class="form">
+                    <label class="form-item">Tem veículo na residência? </label>
+                                        <label class="btn-chek">Sim
+                                        <input type="radio" checked="checked" name="veiculo">
+                                        <span class="btn-chek"></span>
+                                        </label>
+                                        <label class="btn-chek">Não
+                                        <input type="radio" name="veiculo">
+                                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="form">
+                    <label class="form-item">Recebe algum auxílio do governo? </label>
+                                        <label class="btn-chek">Sim
+                                        <input type="radio" checked="checked" name="auxilio">
+                                        <span class="btn-chek"></span>
+                                        </label>
+                                        <label class="btn-chek">Não
+                                        <input type="radio" name="auxilio">
+                                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+            </div>
+
+            <fieldset class="select" >
+                <legend class="form-item">Que despesas comprometem a sua renda mensal?</legend>
+            
+                <div>
+                  <input class="form-item"type="checkbox" id="horns" name="Alimentação" checked>
+                  <label for="scales">Alimentação</label>
+                </div>
+            
+                <div>
+                  <input class="form-item" type="checkbox" id="horns" name="Aluguel">
+                  <label for="horns">Aluguel</label>
+                </div>
+
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Cartão de crédito">
+                    <label for="horns">Cartão de crédito</label>
+                  </div>
+
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Mensalidade escolar ou de cursos">
+                    <label for="horns">Mensalidade escolar ou de cursos</label>
+                </div>
+                
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Mensalidade de academia">
+                    <label for="horns">Mensalidade de academia</label>
+                </div>
+                
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Plano de saúde">
+                    <label for="horns">Plano de saúde</label>
+                </div>
+                
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Lazer">
+                    <label for="horns">Lazer</label>
+                </div>
+
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Prestação automóvel">
+                    <label for="horns">Prestação automóvel</label>
+                </div>
+
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Combustível">
+                    <label for="horns">Combustível</label>
+                </div>
+
+                <div>
+                    <input class="form-item" type="checkbox" id="horns" name="Passagem de ônibus">
+                    <label for="horns">Passagem de ônibus</label>
+                </div>
+            </fieldset>
+            
+        
+        <button onclick="redirecionar()" class="form-item-btn">Enviar Para Análise</button>
+    </div>
+
+
+     
+<script src="scripts.js"></script>
+
+</body>
+
+</html>

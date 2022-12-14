@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: rgba(247, 251, 253, 0.384);
+   
+}
+
+.conteudo{
+margin-left: 50px;
+}
+
+.img{
+    max-width: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav{
+    align-items:center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px black; 
+}
+
+.legenda{ 
+    font-size: 25px;
+    font-weight: 500;
+}
+.conteudo-subtitulo{
+    margin: 10px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.form-item{
+    margin: 7px;
+}
+
+.form-item-input{
+    width: 400px;
+    height: 20px;
+}
+
+.btn-chek{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.select{
+    border: none;
+    margin-top: 5px;
+}
+
+.form-item-btn{
+margin-left: 10px;
+width: 200px;
+height: 50px;
+margin-top: 30px;
+margin-bottom: 60px;
+background-color: rgb(206, 207, 230);
+border-radius: 30px;
+}
+
+/*conteudo página do conteplado*/
+
+.nav-conteplado{
+    display: flex;
+    flex-direction: column;
+    background: rgb(243, 241, 241);
+   
+   
+}
+
+.img-conteplado{
+    max-width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgb(243, 241, 241);
+}
+
+.conteudo-conteplado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none; 
+    background: rgb(243, 241, 241);
+}
+
+.img-estudante{
+    max-width: 500px;
+   
+}
+
+.conteudo-principal-conteplado{
+    margin:20px 30px;
+    display: flex;
+    align-items: center;    
+}
+
+.conteudo-conteplado-conteudo{ 
+    font-size: 20px;
+    color: black;
+    background: rgb(243, 241, 241);
+}
+
+.conteudo-principal-conteplado-texto{
+    margin-right: 10px;
+}

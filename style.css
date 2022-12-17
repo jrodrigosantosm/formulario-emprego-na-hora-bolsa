@@ -26,6 +26,19 @@ margin-left: 50px;
     border-bottom: solid 1px black; 
 }
 
+.conteudo-imagem{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.imagem-pag{
+    max-width: 600px;
+    margin-left: 100px;
+
+}
+
 .legenda{ 
     font-size: 25px;
     font-weight: 500;

@@ -1,11 +1,7 @@
-var candidato = document.getElementById("candidato").ariaValueMax; 
-var nome = localStorage.getItem(candidato)
-var div = document.getElementById("divResultado")
-
 function redirecionar(){    
-    alert("Seu pedido esta sendo processado ");    
+    var candidato = document.getElementById("candidato").value
+    alert(candidato+", seu pedido esta sendo processado, aguarde!");    
     window.location="conteplado.html";
-    div.innerText(nome)    
 }
 
 
